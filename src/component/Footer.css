@@ -1,0 +1,70 @@
+.site-footer {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info a {
+    color: #ffdd57;
+    text-decoration: none;
+    margin-left: 0.5rem;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  .connect-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #ffcc70;
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+  }
+  
+  .footer-copy {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+  .site-footer {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+  
+  /* Bottom line / border */
+  .site-footer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 4px;
+    background: #ffffff33;
+    border-radius: 2px;
+  }
+  
